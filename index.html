@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Range Slider</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script defer type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+  
+  <h4 id="rgb">RGB Color: <span id="rgbColor">rgb(255,255,255)</span></h4>
+  <h4 id="hex">HEX Value: <span id="hexColor">#ffffff</span></h4>
+  <form id="form-control">
+    <label for="red">Red</label>
+    <input type="range" class="inputs" step="1" name="red" id="red" value="255" min="0" max="255">
+    <label for="Green">Green</label>
+    <input type="range" class="inputs" step="1" name="green" id="green" value="255" min="0" max="255">
+    <label for="blue">Blue</label>
+    <input type="range" class="inputs" step="1" name="blue" id="blue" value="255" min="0" max="255">
+
+  </form>
+</div>
+</body>
+</html>
